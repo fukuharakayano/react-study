@@ -1,3 +1,63 @@
 body {
   font-family: sans-serif;
 }
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.todo-container {
+  padding: 10px;
+}
+.todo-container p {
+  color: #000;
+  /* font-weight: bold; */
+}
+
+.todo-input {
+  background-color: rgb(186, 210, 10);
+  display: flex;
+}
+.todo-input input {
+  display: block;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+}
+.todo-imcomplate {
+  background-color: rgb(255, 218, 11);
+}
+.todo-complate {
+  background-color: rgb(184, 182, 183);
+}
+
+.todo-list {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+button {
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+  padding: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5;
+  border-bottom: 5px solid #eb6877;
+}
+
+.todo-imcomplate button {
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(rgb(255, 133, 153), rgb(111, 253, 255));
+}
+.todo-complate button {
+  color: #eb6877;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.44);
+}
+
+button:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid #eb6877;
+}
